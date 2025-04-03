@@ -16,34 +16,64 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ld-bX-R6C">
-                                <rect key="frame" x="10" y="724" width="393" height="80"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oFK-xI-qon">
+                                <rect key="frame" x="10" y="79" width="393" height="51"/>
                                 <subviews>
-                                    <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter amount or message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cz8-DM-ABp">
-                                        <rect key="frame" x="18" y="36" width="228" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
-                                        <textInputTraits key="textInputTraits"/>
-                                    </textField>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sor-rr-bC5">
-                                        <rect key="frame" x="255" y="33" width="42" height="42"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="Group 1000002008"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vg6-ju-Exq">
-                                        <rect key="frame" x="312" y="36" width="58" height="34"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="Group 2754"/>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="70" translatesAutoresizingMaskIntoConstraints="NO" id="HOm-D8-5Pz">
+                                        <rect key="frame" x="10" y="11" width="373" height="40"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="IaW-FU-lvy">
+                                                <rect key="frame" x="0.0" y="0.0" width="171.66666666666666" height="40"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCP-i1-ckC">
+                                                        <rect key="frame" x="0.0" y="0.0" width="12.666666666666666" height="40"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="chevron.backward" catalog="system"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGV-Ke-qZg">
+                                                        <rect key="frame" x="22.666666666666657" y="0.0" width="149" height="40"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="Group 2433"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="30" translatesAutoresizingMaskIntoConstraints="NO" id="2Ym-VU-kjH">
+                                                <rect key="frame" x="241.66666666666669" y="0.0" width="131.33333333333331" height="40"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hY3-tD-ce7">
+                                                        <rect key="frame" x="0.0" y="0.0" width="23.666666666666668" height="40"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="Vector"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5Z-y2-Xe7">
+                                                        <rect key="frame" x="53.666666666666629" y="0.0" width="24" height="40"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="tabler_video-filled"/>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCV-hm-Pvt">
+                                                        <rect key="frame" x="107.66666666666663" y="0.0" width="23.666666666666657" height="40"/>
+                                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                        <state key="normal" image="fluent_call-16-filled"/>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="HOm-D8-5Pz" secondAttribute="trailing" constant="10" id="Jgo-hX-3UW"/>
+                                    <constraint firstAttribute="bottom" secondItem="HOm-D8-5Pz" secondAttribute="bottom" id="NPN-vt-IzM"/>
+                                    <constraint firstItem="HOm-D8-5Pz" firstAttribute="leading" secondItem="oFK-xI-qon" secondAttribute="leading" constant="10" id="bAe-qx-gUF"/>
+                                    <constraint firstAttribute="height" constant="51" id="cMC-61-Avo"/>
+                                </constraints>
                             </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="8k6-IR-fqk">
-                                <rect key="frame" x="0.0" y="135" width="403" height="584"/>
+                                <rect key="frame" x="0.0" y="135" width="403" height="632"/>
                                 <subviews>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Frame 2415" translatesAutoresizingMaskIntoConstraints="NO" id="BCH-w3-1hB">
+                                        <rect key="frame" x="0.0" y="0.0" width="403" height="632"/>
+                                    </imageView>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Group 2763" translatesAutoresizingMaskIntoConstraints="NO" id="TuP-x8-49i">
                                         <rect key="frame" x="0.0" y="8" width="201" height="76"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -71,46 +101,44 @@
                                 </subviews>
                                 <color key="backgroundColor" systemColor="tertiarySystemGroupedBackgroundColor"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="584" id="p6Z-nd-lCn"/>
+                                    <constraint firstItem="BCH-w3-1hB" firstAttribute="leading" secondItem="8k6-IR-fqk" secondAttribute="leading" id="b5h-BN-ErP"/>
+                                    <constraint firstAttribute="bottom" secondItem="BCH-w3-1hB" secondAttribute="bottom" id="rgH-SU-hCA"/>
+                                    <constraint firstAttribute="trailing" secondItem="BCH-w3-1hB" secondAttribute="trailing" id="y3x-Co-tvu"/>
+                                    <constraint firstItem="BCH-w3-1hB" firstAttribute="top" secondItem="8k6-IR-fqk" secondAttribute="top" id="zaV-Ia-rIU"/>
                                 </constraints>
                             </view>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="oFK-xI-qon">
-                                <rect key="frame" x="10" y="79" width="393" height="51"/>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2Ld-bX-R6C">
+                                <rect key="frame" x="0.0" y="762" width="393" height="42"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dCP-i1-ckC">
-                                        <rect key="frame" x="39" y="15" width="13" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="chevron.backward" catalog="system"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="AGV-Ke-qZg">
-                                        <rect key="frame" x="5" y="6" width="185" height="40"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="Group 2706"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hY3-tD-ce7">
-                                        <rect key="frame" x="254" y="15" width="15" height="22"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="Vector"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="lCV-hm-Pvt">
-                                        <rect key="frame" x="349" y="14" width="24" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="fluent_call-16-filled"/>
-                                    </button>
-                                    <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="m5Z-y2-Xe7">
-                                        <rect key="frame" x="307" y="14" width="24" height="24"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                        <state key="normal" image="tabler_video-filled"/>
-                                    </button>
+                                    <stackView opaque="NO" contentMode="scaleToFill" spacing="12" translatesAutoresizingMaskIntoConstraints="NO" id="HAE-2d-tDp">
+                                        <rect key="frame" x="16" y="5" width="361" height="37"/>
+                                        <subviews>
+                                            <textField opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="248" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Enter amount or message" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="cz8-DM-ABp">
+                                                <rect key="frame" x="0.0" y="0.0" width="237" height="37"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <textInputTraits key="textInputTraits"/>
+                                            </textField>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sor-rr-bC5">
+                                                <rect key="frame" x="249" y="0.0" width="42" height="37"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="Group 1000002008"/>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Vg6-ju-Exq">
+                                                <rect key="frame" x="303" y="0.0" width="58" height="37"/>
+                                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
+                                                <state key="normal" image="Group 2754"/>
+                                            </button>
+                                        </subviews>
+                                    </stackView>
                                 </subviews>
-                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="51" id="cMC-61-Avo"/>
+                                    <constraint firstItem="HAE-2d-tDp" firstAttribute="top" secondItem="2Ld-bX-R6C" secondAttribute="top" constant="5" id="Aak-jh-aO5"/>
+                                    <constraint firstItem="HAE-2d-tDp" firstAttribute="leading" secondItem="2Ld-bX-R6C" secondAttribute="leading" constant="16" id="CoT-4f-gWl"/>
+                                    <constraint firstAttribute="height" constant="42" id="Fwr-rt-3kJ"/>
+                                    <constraint firstAttribute="trailing" secondItem="HAE-2d-tDp" secondAttribute="trailing" constant="16" id="GMP-07-Srs"/>
+                                    <constraint firstAttribute="bottom" secondItem="HAE-2d-tDp" secondAttribute="bottom" id="hfg-Kb-fTc"/>
                                 </constraints>
                             </view>
                         </subviews>
@@ -119,14 +147,14 @@
                         <constraints>
                             <constraint firstItem="8k6-IR-fqk" firstAttribute="leading" secondItem="kaG-Ys-CAP" secondAttribute="leading" id="6lS-Mu-Gyd"/>
                             <constraint firstItem="oFK-xI-qon" firstAttribute="leading" secondItem="kaG-Ys-CAP" secondAttribute="leading" constant="10" id="CD9-1o-vJ6"/>
-                            <constraint firstItem="2Ld-bX-R6C" firstAttribute="top" secondItem="8k6-IR-fqk" secondAttribute="bottom" constant="5" id="J1x-RS-g0A"/>
                             <constraint firstItem="8k6-IR-fqk" firstAttribute="top" secondItem="oFK-xI-qon" secondAttribute="bottom" constant="5" id="J98-06-2e8"/>
                             <constraint firstItem="kaG-Ys-CAP" firstAttribute="bottom" secondItem="2Ld-bX-R6C" secondAttribute="bottom" constant="14" id="VNv-8t-RE7"/>
-                            <constraint firstItem="2Ld-bX-R6C" firstAttribute="trailing" secondItem="kaG-Ys-CAP" secondAttribute="trailing" constant="10" id="fZo-YA-WOX"/>
+                            <constraint firstItem="2Ld-bX-R6C" firstAttribute="trailing" secondItem="kaG-Ys-CAP" secondAttribute="trailing" id="fZo-YA-WOX"/>
                             <constraint firstItem="oFK-xI-qon" firstAttribute="top" secondItem="kaG-Ys-CAP" secondAttribute="top" constant="20" id="hIY-jn-Ilf"/>
-                            <constraint firstItem="2Ld-bX-R6C" firstAttribute="leading" secondItem="kaG-Ys-CAP" secondAttribute="leading" constant="10" id="hRM-2p-9A4"/>
+                            <constraint firstItem="2Ld-bX-R6C" firstAttribute="leading" secondItem="kaG-Ys-CAP" secondAttribute="leading" id="hRM-2p-9A4"/>
                             <constraint firstItem="oFK-xI-qon" firstAttribute="trailing" secondItem="kaG-Ys-CAP" secondAttribute="trailing" constant="10" id="k9I-S8-aqc"/>
                             <constraint firstItem="8k6-IR-fqk" firstAttribute="trailing" secondItem="kaG-Ys-CAP" secondAttribute="trailing" constant="10" id="piB-Xt-mYC"/>
+                            <constraint firstItem="HAE-2d-tDp" firstAttribute="top" secondItem="8k6-IR-fqk" secondAttribute="bottom" id="zas-hn-X8w"/>
                         </constraints>
                     </view>
                 </viewController>
@@ -151,10 +179,11 @@
         </scene>
     </scenes>
     <resources>
+        <image name="Frame 2415" width="390" height="658"/>
         <image name="Group 1000001724" width="231" height="119"/>
         <image name="Group 1000001725" width="230" height="119"/>
         <image name="Group 1000002008" width="42" height="42"/>
-        <image name="Group 2706" width="185" height="40"/>
+        <image name="Group 2433" width="149" height="40"/>
         <image name="Group 2754" width="58" height="34"/>
         <image name="Group 2763" width="231" height="125"/>
         <image name="Group 2764" width="230" height="125"/>
