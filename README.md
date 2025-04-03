@@ -1,3 +1,3 @@
 
 
-<img alt="Products List" src="Screenshots/InterviewDemo.png">
+<img alt="Products List" src="Screenshot/InterviewDemo.png">
